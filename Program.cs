@@ -50,6 +50,11 @@ namespace Studentt
                 Student student = new Student(name[i], surname[i], middleName[i], group[i], estimation1[i], estimation2[i], estimation3[i]);
                 student.Info();
             }
+            /* Вся сложность решения дз была в том, что:
+            1. get и set не очень понятны
+            2. использование нескольких классов и взаимодействие между ними
+            Спасибо
+            */
         }
     }
 }
