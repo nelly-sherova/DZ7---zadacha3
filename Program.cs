@@ -22,6 +22,16 @@ namespace Studentt
             this.estimation3 = estimation3;
 
         }
+        public double Sredball()
+        { 
+            return ((double)(estimation1+estimation2+estimation3)/3);
+        }
+        public void Info()
+        {
+            Console.WriteLine($"{name}, {surname} {middleName}");
+            Console.WriteLine($"Оценки: {estimation1}, {estimation2}, {estimation3} ");
+            Console.WriteLine($"Средний балл: {Sredball()}");
+        }
     }
     class Program
     {
